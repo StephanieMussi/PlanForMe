@@ -1,0 +1,27 @@
+#
+# generated on 2018/10/17 08:26:49
+#
+# --table-start--
+dataClass=com.planforme.jamot.planforme.entity.Schedule
+tableName=Schedule
+# --table-fields-start--
+# --field-start--
+fieldName=scheduleId
+generatedId=true
+allowGeneratedIdInsert=true
+# --field-end--
+# --field-start--
+fieldName=weekNo
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=year
+uniqueCombo=true
+# --field-end--
+# --field-start--
+fieldName=eventList
+dataPersister=SERIALIZABLE
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
